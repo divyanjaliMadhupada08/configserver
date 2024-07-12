@@ -4,12 +4,6 @@ spring:
   cloud:
     config:
       server:
-        vault:
-          host: myhost  
-          port: 8200          
-          scheme: http         
-          kvVersion: 2
-          order: 1
         native:
-          search-locations: file:///C:/Users/sss/config-info/{application}
-          order: 2
+          search-locations: file:///C:/Users/Durgasi Mahesh kumar/Documents/config-info/{application}
+          order: 1
